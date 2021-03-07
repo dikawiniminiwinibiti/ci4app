@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Tes::index');
-$routes->add('/coba', 'Home::index'); /*untuk menambahkan shortcut / -> menandakan default dari ci jika /coba brrrti jika ketikkan localhost:8080/coba 
+$routes->add('/coba', 'Home::index');  /*untuk menambahkan shortcut / -> menandakan default dari ci jika /coba brrrti jika ketikkan localhost:8080/coba 
 maka akan ke controller home metod index
 //nama controller::namamethod
 
