@@ -70,7 +70,6 @@ class App extends BaseConfig
 	 * @var string
 	 */
 	public $defaultLocale = 'en';
-
 	/**
 	 * --------------------------------------------------------------------------
 	 * Negotiate Locale
@@ -303,7 +302,7 @@ class App extends BaseConfig
 	 * (empty string) means no SameSite attribute will be set on cookies. If
 	 * set to `None`, `$cookieSecure` must also be set.
 	 *
-       * @var string 'Lax'|'None'|'Strict'
+	 * @var string 'Lax'|'None'|'Strict'
 	 */
 	public $cookieSameSite = 'Lax';
 
